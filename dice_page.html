@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/styles.css">
+<head>
+<meta charset="UTF-8">
+<title>Roll a dice</title>
+</head>
+<header>
+<!--  Artem Bessonov, navbar style and functionality -->
+	<div class ="container">
+	<img alt="logo" src="images/logo.png" class="logo">
+		<nav>
+			<ul>
+				<li><a href="main_page.html">Home</a></li>
+				<li><a href="number_page.html">Number</a></li>
+				<li><a href="coin_page.html">Coin</a></li>
+				<li><a href="dice_page.html">Dice</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<!--  Arpit Acherya, dice page layout -->	
+<div class="dicerolled">
+	<h2>Roll a dice</h2> 
+  		<button onclick="rollDice()" class="randomNumber">Roll</button>
+    <h1>Dice Rolled</h1>
+        <img src="" alt="?" id="diceimg" onerror="this.onerror=null; this.src='images/dicedef.png'"> <!-- image will go here -->
+  </div>
+</body>
+<!--  Arpit Acherya, script for the dice page, script description at the dicejs.js -->	
+  <script src="scripts/dicejs.js"></script>
+</html>

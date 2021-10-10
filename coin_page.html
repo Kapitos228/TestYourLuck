@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/styles.css">
+<head>
+<meta charset="UTF-8">
+<title>Flip a coin</title>
+</head>
+<body>
+<header>
+<!--  Artem Bessonov, navbar style and functionality -->
+	<div class ="container">
+	<img alt="logo" src="images/logo.png" class="logo">
+		<nav>
+			<ul>
+				<li><a href="main_page.html">Home</a></li>
+				<li><a href="number_page.html">Number</a></li>
+				<li><a href="coin_page.html">Coin</a></li>
+				<li><a href="dice_page.html">Dice</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<!--  Kripa Bhujel, main page layout -->	
+<div class="coinbody">
+  <h2>Flip a coin</h2> 
+
+  <button onclick="flipCoin()" class="randomNumber">Flip</button>
+    <h1>Coin Flipped</h1>
+     <img src="" alt="?" id="coinimg" onerror="this.onerror=null; this.src='images/head.png'"> <!-- image will go here -->
+  </div>
+</body>
+<!--  Kripa Bhujel, coin page script, description in the coinjs.js -->	
+  <script src="scripts/coinjs.js"></script>
+</html>
